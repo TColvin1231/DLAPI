@@ -36,7 +36,7 @@ namespace DLApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+
 
             app.UseRouting();
 
