@@ -37,7 +37,7 @@ steps:
     inputs:
       command: publish
       publishWebProjects: false
-      projects: 'src/DLAPi/DLAPI.csproj'
+      projects: 'DLAPi/DLAPI.csproj'
       arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
       zipAfterPublish: true
 
